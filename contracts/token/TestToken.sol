@@ -11,6 +11,8 @@ contract TestToken is ERC20Mintable, ERC20Detailed, ERC20Burnable{
   string public symbol = "TEST";
   uint8 public decimals = 18;
 
-  constructor() public ERC20Detailed(name, symbol, decimals) {}
+  constructor() public ERC20Detailed(name, symbol, decimals) {
+  	_mint(msg.sender, 1000000000 ether);
+  }
 
 }
