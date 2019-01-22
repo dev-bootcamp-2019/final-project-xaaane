@@ -29,3 +29,5 @@ Steps:
 There are a total of 14 test cases have been written for BountyApp.sol.
 
 The tests cover posting of bounties, submitting of bounty entries, approving of bounty entry and withdrawal of payout. It also covers incorrect / malicious usage of the smart contract. The tests are written to ensure that the flow of the smart contract aligns with the intended flow of the project, and also to ensure that incorrect or malicious usage of the smart contracts are reverted.
+
+Run `truffle test` in the root directory to run the test cases.
